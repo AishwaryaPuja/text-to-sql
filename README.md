@@ -38,12 +38,7 @@ This repository contains a Flask-based web service that allows users to query CS
 -   AWS S3 Bucket with credentials
 -   Google Gemini API Key
 
-### Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/firstcryorg/TEXT-TO-SQL.git
-    cd TEXT-TO-SQL
     ```
 
 2.  **Install dependencies:**
