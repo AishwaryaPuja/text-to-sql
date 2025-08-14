@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Interactive Chart</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+
+<body>
+    <div id="container" style="width:100%; height:500px;"></div>
+
+    <script>
+        // Use Jinja2 to inject JSON safely from Flask
+        const chartConfig = {{ chart_config | tojson }};
+        
+        // Render the chart
+        Highcharts.chart('container', chartConfig);
+    </script>
+</body>
+
+</html>
